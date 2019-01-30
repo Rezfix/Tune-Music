@@ -11,7 +11,7 @@ const gif = require("gif-search");
 const client = new Discord.Client({disableEveryone: true});
 
 client.on('ready', () => {
-    client.user.setGame('Type 1help','');
+    client.user.setGame('Type 1help','https://www.twitch.tv/Tune');
     console.log('---------------');
     console.log('Tune 1Play')
     console.log('---------------')
