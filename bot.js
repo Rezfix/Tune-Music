@@ -13,7 +13,7 @@ const client = new Discord.Client({disableEveryone: true});
 client.on('ready', () => {
     client.user.setGame('Type 1help','WATCHING');
     console.log('---------------');
-    console.log('1play Online')
+    console.log('Tune 1Play')
     console.log('---------------')
   });
  
