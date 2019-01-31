@@ -366,7 +366,7 @@ if (message.content.startsWith(adminprefix + 'setT')) {
  
 client.on('ready',async () => {
 console.log("Starting..");
-let g = client.guilds.get("540155995796668434");
+let g = client.guilds.get("540171973490245642");
 let c = g.channels.get("540171973490245642");
 if(c.type === 'voice') {
 c.join();
