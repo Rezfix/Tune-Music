@@ -11,11 +11,32 @@ const gif = require("gif-search");
 const client = new Discord.Client({disableEveryone: true});
 
 client.on('ready', () => {
-    client.user.setGame('Type 1play','https://www.twitch.tv/TuneServer');
-    console.log('---------------');
-    console.log('1Play Im Playing')
-    console.log('---------------')
-  });
+// عند بدء البوت راح يرسل السي ام دي هذي الرسايل
+  console.log('')
+  console.log('')
+  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
+  console.log(`[Start] ${new Date()}`)
+  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
+  console.log('')
+  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
+  console.log('')
+  console.log('╔[═════════════════]╗')
+  console.log(' Bot Is Online')
+  console.log('╔[═════════════════]╗')
+  console.log('')
+  console.log(`╔[ Logged in as * [ " ${client.user.username} " ] ]?`);
+  console.log('')
+  console.log('=[ Informations :]╗')
+  console.log('')
+  console.log(`╔[ Servers [ " ${client.guilds.size} " ]╗`);
+  console.log(`╔[ Users [ " ${client.users.size} " ]╗`);
+  console.log(`╔[ Channels [ " ${client.channels.size} " ]╗`);
+  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
+  console.log('')
+  console.log('')
+  console.log('')
+  client.user.setActivity('Tune Type 1play')
+});
  
 const prefix = "1";
 /////////////////////////
