@@ -21,7 +21,7 @@ client.on('ready', () => {
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
   console.log('')
   console.log('╔[═════════════════]╗')
-  console.log(' Bot Is Online')
+  console.log(' 1Play Im Ready')
   console.log('╔[═════════════════]╗')
   console.log('')
   console.log(`╔[ Logged in as * [ " ${client.user.username} " ] ]?`);
